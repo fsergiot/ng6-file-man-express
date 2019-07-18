@@ -6,7 +6,7 @@ const fs = require('fs');
 const onUpload = require('./uploader.js');
 const settings = require('./settings.js');
 
-const PATH_SEPARATOR = '\\';
+const PATH_SEPARATOR = '/';
 const defaultPath = settings.defaultFolder;
 
 const app = express();
