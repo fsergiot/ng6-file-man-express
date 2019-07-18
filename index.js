@@ -11,8 +11,8 @@ const defaultPath = settings.defaultFolder;
 
 const app = express();
 
-app.listen(settings.serverPort, () => {
-  console.log('Server running on port ' + settings.serverPort);
+app.listen(process.env.PORT || settings.serverPort, () => {
+  console.log('Server running on port ' + process.env.PORT || settings.serverPort);
 });
 
 app.get('/api/list', (req, res) => {
