@@ -11,7 +11,7 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mkdirp": "^0.5.1",
     "multiparty": "^4.2.1",
     "rimraf": "^2.6.3"
